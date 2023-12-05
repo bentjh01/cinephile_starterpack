@@ -1,4 +1,6 @@
 # Cinephile Starterpack
+## Plan
+- use github pages
 ## Movies
 - requires more thought, maybe make it like a mixtape. so it takes you on a journey. Emotional? Eras? idk
 1. Baby driver - music/ action
