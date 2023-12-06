@@ -25,7 +25,9 @@
 17. The Bear
 18. 
 ## Resources
-- [Movie Posters](https://www.cinematerial.com/movies/spider-man-into-the-spider-verse-i4633694)
+- [Movie Posters](https://www.imdb.com/)
 - [Original Reference](https://camillemormal.com/)
 - [Award Winning Animation With Only 20 Lines Of CSS?](https://youtu.be/PkADl0HubMY?si=7ZvSY1T_PgTp2Jb6)
 - [Sample Code](https://codepen.io/Hyperplexed/pen/MWXBRBp)
+## Scrapping Steps
+- f12 on web site, find "property='og:image'"
