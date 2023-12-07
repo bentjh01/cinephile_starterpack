@@ -3,6 +3,8 @@
 ## Plan
 - use github pages
 - include link to watch. 
+- obtain links to movie posters from imdb
+- obtain links to movie posters from repo
 ## Movies
 - requires more thought, maybe make it like a mixtape. so it takes you on a journey. Emotional? Eras? idk
 - Some for you, some for me, and some for humankind. 
