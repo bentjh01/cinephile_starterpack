@@ -23,7 +23,8 @@
 15. Monty Python and the Holy Grail
 16. Demolishtion
 17. The Bear
-18. 
+18. Into the Wild
+19. Secret Life of Walter Mitty
 ## Resources
 - [Movie Posters](https://www.imdb.com/)
 - [Original Reference](https://camillemormal.com/)
