@@ -1,5 +1,6 @@
 # Cinephile Starterpack
-[### CLICK ME ###](https://bentjh01.github.io/cinephile_starterpack/)
+[### CLICK ME ###](https://bentjh01.github.io/cinephile_starterpack/)  
+[Github](https://github.com/bentjh01/cinephile_starterpack.git)
 ## Plan
 - use github pages
 - include link to watch. 
