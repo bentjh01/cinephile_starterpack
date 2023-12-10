@@ -29,6 +29,7 @@
 17. The Bear
 18. Into the Wild
 19. Secret Life of Walter Mitty
+20. Klaus
 ## Resources
 - [Movie Posters](https://www.imdb.com/)
 - [Original Reference](https://camillemormal.com/)
