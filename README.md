@@ -30,6 +30,7 @@
 18. Into the Wild
 19. Secret Life of Walter Mitty
 20. Klaus
+21. Mitchell's Vs the machines 
 ## Resources
 - [Movie Posters](https://www.imdb.com/)
 - [Original Reference](https://camillemormal.com/)
