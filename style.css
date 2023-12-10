@@ -1,10 +1,10 @@
 /* body is the whole page */
 body {
-    /* height: 100vh;
-    width: 100vw; */
+    height: 100vh;
+    width: 1000vw;
     background-color: black;
     margin: 0rem;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
 main {
@@ -14,7 +14,7 @@ main {
 
 /* IMAGE TRACK */
 
-#image-track {
+#track {
   display: flex;
   gap: 4vmin;
   position: absolute;
@@ -24,26 +24,37 @@ main {
   user-select: none; /* -- Prevent image highlighting -- */
 }
   
-#image-track > .image {
+#track > .image {
   width: 40vmin;
   height: 56vmin;
+  /* max-width: 50%; */
+  /* max-height: 50%; */
   object-fit: cover;
   object-position: 100% center;
 }
 
+#track > .title {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 50%;
+  top: 100%;
+}
+
 /* TEXT TRACK */
 
-#movie-title {
-  display: flex;
-  position: relative;
-  left: 0%;
-  top: 0%;
+#text-track {
+  /* display: flex; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
   color: rgb(255, 255, 255);
+  transform: translate(0%, -50%); 
+  user-select: none; /* -- Prevent image highlighting -- */
 }
   
   /* -- YouTube Link Styles -- */
   
-  body.menu-toggled > .meta-link > span {
+  /* body.menu-toggled > .meta-link > span {
     color: rgb(30, 30, 30);
   }
   
@@ -92,4 +103,4 @@ main {
     color: white;
     font-family: "Rubik", sans-serif;
     font-weight: 500;
-  }
+  } */
