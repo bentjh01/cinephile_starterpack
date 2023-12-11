@@ -29,3 +29,13 @@
 - Cinema era defining
 11. Lady Bird
 - 
+12. Marriage Story
+13. swiss army man
+14. Hunt for thte wilder people
+15. the social network
+16. the grand budapest hotel
+17. The Prestige
+18. John Wick
+- to watch with your dad
+19. Her
+20. 
