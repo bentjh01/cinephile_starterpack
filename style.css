@@ -2,7 +2,7 @@
 body {
     height: 100vh;
     width: 1000vw;
-    background-color: black;
+    /* background-color: black; */
     margin: 0rem;
     /* overflow: hidden; */
   }
@@ -14,7 +14,7 @@ main {
 
 /* IMAGE TRACK */
 
-#track {
+#image-track {
   display: flex;
   gap: 4vmin;
   position: absolute;
@@ -24,7 +24,7 @@ main {
   user-select: none; /* -- Prevent image highlighting -- */
 }
   
-#track > .image {
+#image-track > .image {
   width: 40vmin;
   height: 56vmin;
   /* max-width: 50%; */
@@ -33,7 +33,7 @@ main {
   object-position: 100% center;
 }
 
-#track > .title {
+#text-track > .title {
   color: rgb(255, 255, 255);
   position: absolute;
   left: 50%;
