@@ -24,7 +24,7 @@ main {
   user-select: none; /* -- Prevent image highlighting -- */
 }
   
-#image-track > .image {
+#track > .image {
   width: 40vmin;
   height: 56vmin;
   /* max-width: 50%; */
