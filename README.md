@@ -45,4 +45,20 @@
 18. John Wick
 - to watch with your dad
 19. Her
-20. 
+20. Song of the Sea
+21. Into the Spiderverse
+22. Past Lives
+23. The Theory of Everything
+24. Pulp Fiction
+25. Birdman
+26. Forrest Gump
+27. About time
+28. Shaun of the dead
+29. Monty Python and the holy grail
+30. Demolition
+31. The bear
+32. Chef
+33. Secret Life of Walter Mitty
+34. Dead Poet's Society
+35. the scent of a woman (more for a guy)
+36. 
