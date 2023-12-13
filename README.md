@@ -9,7 +9,16 @@
 - Idea 4: movie that transcends its medium or genre. 
 
 ## Movie Recommendations
+1. 
+2. 
+3. 
+4. 
+5. 
+### Unsorted
 1. Klaus
+- Its Christmas
+- how myths are made
+- a life of service
 2. Whiplash
 - The pusuit of dreams and obsession
 3. Shaun of the Dead
@@ -38,6 +47,8 @@
 - 
 12. Marriage Story
 13. swiss army man
+- watch when high on weed. 
+- the opening made me laugh
 14. Hunt for thte wilder people
 15. the social network
 16. the grand budapest hotel
@@ -61,4 +72,4 @@
 33. Secret Life of Walter Mitty
 34. Dead Poet's Society
 35. the scent of a woman (more for a guy)
-36. 
+36. Captain Fantastic
