@@ -4,7 +4,7 @@ body {
     width: 500vw;
     background-color: black;
     margin: 0rem;
-    overflow: hidden;
+    overflow: auto;
   }
 
 main {
