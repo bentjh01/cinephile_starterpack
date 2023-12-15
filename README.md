@@ -14,6 +14,13 @@
 3. 
 4. 
 5. 
+
+6. 
+7. 
+8. 
+9. 
+10. 
+
 ### Unsorted
 1. Klaus
 - Its Christmas
@@ -50,26 +57,68 @@
 - watch when high on weed. 
 - the opening made me laugh
 14. Hunt for thte wilder people
+- watch for the laughs
 15. the social network
+- Editing, pace
 16. the grand budapest hotel
+- style.
+- life
 17. The Prestige
+- dedication to a dream/ goals. 
+- sacrifice: love, happiness
+- pursuit of meaning 
 18. John Wick
 - to watch with your dad
+- action packed
+- doesnt treat the audience like a child. ie subtle world building
 19. Her
+- what does it mean to be in love?
+- what does a relationship mean?
+- what does mean to have moved on?
 20. Song of the Sea
+- siblinghood
+- grief
 21. Into the Spiderverse
+- finding youreself in responsibilities that you are afraid of stepping into. 
+- great expectations
 22. Past Lives
+- fate
+- reality vs romance
 23. The Theory of Everything
+- cuz stephen hawkins
 24. Pulp Fiction
+- classic film -  made me feel up to date with references
 25. Birdman
+- struggle for meaning/ significance
+- camera work
 26. Forrest Gump
+- life in simplicity - Jenny complicates her life and makes it worst for her, forrest keeps it simple. 
 27. About time
+- wholesome story about love
+- even more wholsome about life - choosing to enjoy the moment despite being able to go back in time
 28. Shaun of the dead
+- british comedy
+- 
 29. Monty Python and the holy grail
+- british comedy on an old story
+- satire on grandious
 30. Demolition
+- what does it mean to move on?
+- how to manage grief and emotions. 
 31. The bear
+- the struggle between love for a family and the pain they inflict
 32. Chef
+- pursuit of goals
+- becoming modern
 33. Secret Life of Walter Mitty
+- being adveturous 
 34. Dead Poet's Society
+- wonder
+- the meaning to life
+- "science and math is to maintain life but art and love is what we live for"
 35. the scent of a woman (more for a guy)
+- integrity of character
 36. Captain Fantastic
+- an alternate view on life
+- the influence of parents in a child's life
+- curiousity. 
