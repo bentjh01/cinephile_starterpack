@@ -9,17 +9,17 @@
 - Idea 4: movie that transcends its medium or genre. 
 
 ## Movie Recommendations
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Whiplash
+2. The Grand Budapest Hotel
+3. Into the Spider-Verse
+4. Baby Driver
+5. The Prestige or momento
 
-6. 
+6. Boyhood
 7. 
 8. 
 9. 
-10. 
+10. Past Lives
 
 ### Unsorted
 1. Klaus
@@ -122,3 +122,6 @@
 - an alternate view on life
 - the influence of parents in a child's life
 - curiousity. 
+37. Knives Out
+38. arrival
+19. Greenbook
