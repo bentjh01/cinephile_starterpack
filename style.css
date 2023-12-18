@@ -9,19 +9,18 @@ body {
 }
 
 main {
-    min-width: 50%;
+    /* min-width: 50%; */
     justify-content: center;
     position: absolute;
-    left: 25vmin;
-    top: 25vmin;
-    justify-content: center;
+    left: 12.5vw;
+    /* top: 25vw; */
 }
 
 #track {
-    width: 75vmin;
-    min-height: 100%;
-    display: contents;
-    justify-content: center;
+    width: 75vw;
+    min-height: 100vh;
+    /* display: contents; */
+    /* justify-content: center; */
     /* gap: 25vmin; */
     /* padding: 20%; */
     user-select: none; /* -- Prevent image highlighting -- */
@@ -29,13 +28,13 @@ main {
 
 .movie_card {
     display: flex;
-    width: 75%;
-    height: 50%;
-    /* margin: 10px; */
-    padding: 15px;
+    width: 75vw;
+    height: 90vh;
+    margin: 5vh;
     border: 1px solid #ddd;
-    /* border-radius: 5px; */
-    text-align: center;
+    border-radius: 5px;
+    /* text-align: center; */
+    /* padding: 10vh; */
 }
 
 /* image not centred */
@@ -43,12 +42,15 @@ main {
     width: 40vmin;
     height: 56vmin;
     object-fit: cover;
+    margin: auto;
+    padding: 5%;
     /* object-position: 100% center; */
 }
 
 .title {
     color: rgb(255, 255, 255);
     margin: auto;
+    text-align: center;
     padding: 5%;
     /* position: absolute; */
     /* left: 50%; */
@@ -58,6 +60,8 @@ main {
 .description {
     color: rgb(255, 255, 255);
     margin: auto;
+    text-align: left;
+    padding: 5%;
     /* position: absolute; */
     /* left: 50%; */
     /* top: 100%; */
