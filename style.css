@@ -11,10 +11,11 @@ body {
 }
 
 main {
+    margin: auto;
     /* min-width: 50%; */
-    justify-content: center;
-    position: absolute;
-    left: 12.5vw;
+    /* justify-content: center; */
+    /* position: absolute; */
+    /* left: 12.5vw; */
     /* top: 25vw; */
 }
 
