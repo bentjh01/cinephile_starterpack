@@ -9,17 +9,26 @@
 - Idea 4: movie that transcends its medium or genre. 
 
 ## Movie Recommendations
-1. Whiplash
-2. The Grand Budapest Hotel
-3. Into the Spider-Verse
-4. Baby Driver
-5. The Prestige or momento
+1. Whiplash###
+2. The Grand Budapest Hotel###
+3. Into the Spider-Verse###
+4. Baby Driver###
+5. The Prestige or momento or interstellar###
 
-6. Boyhood
+6. Boyhood###
+7. Arrival/ the nice guys/ the sixth sense/ good will hunting
+8. Spirited away ###
+9. Forrest Gump###
+10. Past Lives / three idiots/ seven
+
+## Directors
+1. Christopher Nolan
+2. Richard Linklater
+3. Steven Spielberg
+4. wes anderson
+5. edgar wright
+6. damien chazelle
 7. 
-8. 
-9. 
-10. Past Lives
 
 ### Unsorted
 1. Klaus
@@ -124,4 +133,14 @@
 - curiousity. 
 37. Knives Out
 38. arrival
-19. Greenbook
+39. Greenbook
+40. get out
+41. good will hunting
+44. taxi driver
+45. night crawler
+46. inglorious bastards
+47. the godfather
+48. the irishman
+- about age going by. passwing of the old guard. 
+49. 127 hours
+50. Spirited away

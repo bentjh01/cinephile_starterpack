@@ -5,61 +5,61 @@ body {
     background-color: black;
     margin: 0rem;
     overflow: scroll;
-  }
+}
 
 main {
-  height: 100vh;
-  /* width: 560vw; */
+    height: 100vh;
+    /* width: 560vw; */
 }
 
 /* IMAGE TRACK */
 
 #track {
-  display: flex;
-  gap: 4vmin;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(50%, -50%); 
-  user-select: none;  /* -- Prevent image highlighting -- */
+    display: flex;
+    gap: 4vmin;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    user-select: none; /* -- Prevent image highlighting -- */
 }
 
 .movie_card {
-  flex: 0 0 100px; 
-  margin: 10px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
+    flex: 0 0 100px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
 }
-  
+
 /* image not centred */
 .image {
-  width: 40vmin;
-  height: 56vmin;
-  max-width: 50%;
-  max-height: 50%;
-  object-fit: cover;
-  object-position: 100% center;
+    width: 40vmin;
+    height: 56vmin;
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    object-position: 100% center;
 }
 
 .movie_card > .title {
-  color: rgb(255, 255, 255);
-  /* position: absolute; */
-  /* left: 50%; */
-  /* top: 100%; */
+    color: rgb(255, 255, 255);
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 100%; */
 }
 
-.movie_card > .description{
-  color: rgb(255, 255, 255);
-  /* position: absolute; */
-  /* left: 50%; */
-  /* top: 100%; */
+.movie_card > .description {
+    color: rgb(255, 255, 255);
+    /* position: absolute; */
+    /* left: 50%; */
+    /* top: 100%; */
 }
-  
-  /* -- YouTube Link Styles -- */
-  
-  /* body.menu-toggled > .meta-link > span {
+
+/* -- YouTube Link Styles -- */
+
+/* body.menu-toggled > .meta-link > span {
     color: rgb(30, 30, 30);
   }
   
