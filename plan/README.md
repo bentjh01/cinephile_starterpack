@@ -18,3 +18,7 @@
 - [JS in 5 minutes](https://youtu.be/c-I5S_zTwAc?si=MuJ79FseiDv8-HpG)
 ## Scrapping Steps
 - f12 on web site, find "property='og:image'"
+## Google fonts
+- 
+## Minimap
+- [JavaScript Webpage Minimap](https://youtu.be/TAVV5ji8q-k?si=k136-nFzb5-cCXSk)
