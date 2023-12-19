@@ -5,8 +5,12 @@
   font-family: 'Inter', sans-serif;
 }
 
-html, body{
+html{
   overscroll-behavior: none;
+}
+
+body{
+  background-color: black;
 }
 
 section{
