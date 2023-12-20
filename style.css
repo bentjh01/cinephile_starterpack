@@ -1,4 +1,96 @@
-*{
+body {
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: max-content;
+  scroll-behavior: smooth;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  body {
+      flex-direction: row;
+      overflow-x: auto;
+      overflow-y: hidden;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  body {
+      flex-direction: column;
+      overflow-x: hidden;
+      overflow-y: auto;
+  }
+}
+
+.movie-tile-track {
+  display: flex;
+  width: max-content; /* Let the container grow with its content */
+  height: max-content; /* Let the container grow with its content */
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+  .movie-tile-track {
+      flex-direction: row;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .movie-tile-track {
+      flex-direction: column;
+  }
+}
+
+.movie-tile {
+  /* background-color: gray; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-color: white;
+  border-width: 5px; /* Add border with 5px */
+  border-style: solid; /* Add border style */
+}
+
+/* Desktop view */
+/* @media (min-width: 768px) {
+  .movie-tile {
+      background-color: black;
+      flex-direction: row;
+      overflow-x: auto;
+  }
+} */
+
+/* Mobile view */
+/* @media (max-width: 768px) {
+  .movie-tile {
+      background-color: gray;
+      flex-direction: column;
+      overflow-y: auto;
+  }
+} */
+
+.movie-tile img {
+  max-height: 75vh;
+  max-width: 50vw;
+  height: auto;
+  margin: 1rem;
+}
+
+.movie-tile-text h1, .movie-tile-text p {
+  color: white;
+}
+/* ------------------------------------- STOP HERE -----------------------------------------------------*/
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,7 +100,7 @@
 
 html{
     overscroll-behavior: none;
-  }
+  } */
 
 /* body{
     background-color: black;
@@ -58,7 +150,7 @@ html{
 
 /* Minimap */
 
-.minimap__container{
+/* .minimap__container{
     position: fixed;
     top: 10px;
     left: 10px;
@@ -93,7 +185,7 @@ html{
     transform-origin: 0 0;
     border: 1px solid white;
     
-  }
+  } */
 
 /* body {
     display: flex;

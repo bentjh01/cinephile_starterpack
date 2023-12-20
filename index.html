@@ -1,4 +1,95 @@
+<!-- this html is to contain tiles of movies which will contain a poster, a title and some text-->
+<!-- the tiles will be clickable and will take the user to a page with more information about the movie -->
+<!-- the tiles will be created using html, styled using css and animated using javascript -->
+
 <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Movie Tiles</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- <div class="movie-tile" onclick="location.href='test_movie.html';">
+        <img src="https://m.media-amazon.com/images/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpges/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpg" alt="poster">
+        <div class="movie-tile-text">
+            <h1>Movie Title</h1>
+            <p>Movie Description</p>
+        </div> -->
+        <div class="movie-tile-track">
+            <div class="movie-tile">
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpges/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpg"
+                    draggable="false"
+                    alt="Spider-Man_Into_the_Spider-Verse"
+                />
+            </div>
+            <div class="movie-tile">
+                <div class="movie-tile-text">
+                    <h1>Spider-Man Into the Spider-Verse</h1>
+                    <p>
+                        How could I forget Spider-Man? It is a mandate by law of the Parker Codes. I had to include at
+                        least one Spider-Man and this what I would pick. In many ways, this is a coming of age story.
+                        It's about being granted gifts, fulfilling the responsibilities of it, and the fear that comes
+                        with that.
+                    </p>
+                </div>
+            </div>
+
+            <div class="movie-tile">
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"
+                    draggable="false"
+                    alt="Past_Lives"
+                />
+            </div>
+            <div class="movie-tile">
+                <div class="movie-tile-text">
+                    <h1>Past Lives</h1>
+                    <p>
+                        - (the korean word for past lives) - its about fate and reality - its about being hopelessly
+                        in-love be it with an idea or a person - its about the difference in language and culture - its
+                        about coming to terms with reality
+                    </p>
+                </div>
+            </div>
+
+            <div class="movie-tile">
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BOTc4ODE5Njc1MF5BMl5BanBnXkFtZTgwODE1NzEzMTE@._V1_FMjpg_UX1000_.jpg"
+                    draggable="false"
+                    alt="Secret_Life_of_Walter_Mitty"
+                />
+            </div>
+            <div class="movie-tile">
+                <div class="movie-tile-text">
+                    <h1>Secret Life of Walter Mitty</h1>
+                    <p>
+                        - its about carpe diem - its about the little things - its about the unsung heros - its about
+                        the sad death of physical media - Video killed the radio star
+                    </p>
+                </div>
+            </div>
+
+            <div class="movie-tile">
+                <img
+                    src="https://m.media-amazon.com/images/M/MV5BMjM0NTgwNzEzNl5BMl5BanBnXkFtZTgwNTA0NjY2MTE@._V1_FMjpg_UX1000_.jpg"
+                    draggable="false"
+                    alt="Boyhood"
+                />
+            </div>
+            <div class="movie-tile">
+                <div class="movie-tile-text">
+                    <h1>Movie Title 4</h1>
+                    <p>Movie Description</p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="test_script.js"></script>
+</html>
+
+<!-- <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -9,7 +100,6 @@
 
     <body>
         <nav>
-            <!-- Navigation Pages -->
             <div>
                 <a class="nav-a" href="/about" style="transform: translate3d(0%, 0%, 0px)">About</a>
             </div>
@@ -20,11 +110,10 @@
             </div>
         </nav>
         <main>
-            <!-- <div id="track" data-mouse-down-at="0" data-prev-percentage="0"> -->
             <div id="track">
                 <div class="movie_card">
-                    <!-- Spiderman Into the Spiderverse -->
-                    <!-- src="https://m.media-amazon.com/images/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpges/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpg"  -->
+                    Spiderman Into the Spiderverse
+                    src="https://m.media-amazon.com/images/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpges/M/MV5BMjAzNTY5NjIyMl5BMl5BanBnXkFtZTgwNTMyMzY2NTM@._V1_FMjpg_UX1000_.jpg" 
                     <img
                         class="image"
                         src="./assets/spider-man_into_the_spider-verse.jpg"
@@ -42,9 +131,12 @@
                 </div>
 
                 <div class="movie_card">
-                    <!-- Past Lives -->
-                    <!-- src="https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg"  -->
-                    <img class="image" src="./assets/past_lives.jpg" draggable="false" alt="Past_Lives" />
+                    Past Lives
+                    src="https://m.media-amazon.com/images/M/MV5BOTkzYmMxNTItZDAxNC00NGM0LWIyODMtMWYzMzRkMjIyMTE1XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_FMjpg_UX1000_.jpg" 
+                    <img class="image" 
+                    src="./assets/past_lives.jpg" 
+                    draggable="false" 
+                    alt="Past_Lives" />
                     <h1 class="title">Past Lives</h1>
                     <p class="description">
                         - (the korean word for past lives) - its about fate and reality - its about being hopelessly
@@ -54,8 +146,8 @@
                 </div>
 
                 <div class="movie_card">
-                    <!-- Secret Life of Walter Mitty -->
-                    <!-- src="https://m.media-amazon.com/images/M/MV5BOTc4ODE5Njc1MF5BMl5BanBnXkFtZTgwODE1NzEzMTE@._V1_FMjpg_UX1000_.jpg" -->
+                    Secret Life of Walter Mitty
+                    src="https://m.media-amazon.com/images/M/MV5BOTc4ODE5Njc1MF5BMl5BanBnXkFtZTgwODE1NzEzMTE@._V1_FMjpg_UX1000_.jpg"
                     <img
                         class="image"
                         src="./assets/secret_life_of_walter_mitty.jpg"
@@ -70,8 +162,8 @@
                 </div>
 
                 <div class="movie_card">
-                    <!-- Boyhood -->
-                    <!-- src="https://m.media-amazon.com/images/M/MV5BMjM0NTgwNzEzNl5BMl5BanBnXkFtZTgwNTA0NjY2MTE@._V1_FMjpg_UX1000_.jpg" -->
+                    Boyhood
+                    src="https://m.media-amazon.com/images/M/MV5BMjM0NTgwNzEzNl5BMl5BanBnXkFtZTgwNTA0NjY2MTE@._V1_FMjpg_UX1000_.jpg"
                     <img class="image" src="./assets/boyhood.jpg" draggable="false" alt="Boyhood" />
                     <h1 class="title">Boyhood</h1>
                     <p>class="description" - its about growing up - the pains of divorce - its about life. -</p>
@@ -81,7 +173,7 @@
             </div>
         </main>
         <footer>
-            <!-- <a id="source-link" class="meta-link" href="https://camillemormal.com" target="_blank">
+            <a id="source-link" class="meta-link" href="https://camillemormal.com" target="_blank">
                 <i class="fa-solid fa-link"></i>
                 <span>Source</span>
             </a>
@@ -89,8 +181,8 @@
             <a id="yt-link" class="meta-link" href="https://youtu.be/PkADl0HubMY" target="_blank">
                 <i class="fa-brands fa-youtube"></i>
                 <span>7 min tutorial</span>
-            </a> -->
+            </a>
         </footer>
-        <!-- <script src="script.js"></script> -->
+        <script src="script.js"></script>
     </body>
-</html>
+</html> -->
