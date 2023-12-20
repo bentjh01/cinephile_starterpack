@@ -1,9 +1,9 @@
 body {
     color: white;
+    /* background-color: black; */
     margin: 0;
     padding: 0;
     display: flex;
-    flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
     height: max-content;
@@ -14,7 +14,7 @@ body {
 @media (min-width: 768px) {
     body {
         background-color: black;
-        flex-direction: column;
+        flex-direction: row;
         overflow-x: auto;
         overflow-y: hidden;
     }
@@ -34,23 +34,21 @@ body {
     display: flex;
     width: max-content; /* Let the container grow with its content */
     height: max-content; /* Let the container grow with its content */
-    /* align-items: center;  */
-    /* justify-content: center;  */
 }
 
 /* Desktop view */
-/* @media (min-width: 768px) {
-    .movie-tile {
+@media (min-width: 768px) {
+    .movie-tile-track {
         flex-direction: row;
     }
-} */
+}
 
 /* Mobile view */
-/* @media (max-width: 768px) {
-    .movie-tile {
+@media (max-width: 768px) {
+    .movie-tile-track {
         flex-direction: column;
     }
-} */
+}
 
 .movie-tile {
     /* background-color: gray; */
