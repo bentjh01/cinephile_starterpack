@@ -82,3 +82,4 @@ movieTiles.forEach((tile) => {
     // Add event listener for scroll event
     window.addEventListener('scroll', handleScroll);
 });
+
