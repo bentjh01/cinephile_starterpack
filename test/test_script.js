@@ -52,6 +52,24 @@ movieTiles.forEach((tile) => {
         tile.style.transition = `transform ${transitionDuration}ms ease-out`;
     };
 
+    // Handle the scroll event
+    const handleScroll = () => {
+        // Calculate the distance scrolled
+        const distanceScrolled = window.scrollY;
+
+        // Determine if the threshold is reached
+        if (distanceScrolled >= transitionThreshold) {
+            // Snap the tile into view
+            tile.style.transform = `translateX(${transitionThreshold}px)`;
+        } else {
+            // Reset the tile position
+            tile.style.transform = 'translateX(0)';
+        }
+
+        // Apply the transition
+        tile.style.transition = `transform ${transitionDuration}ms ease-out`;
+    };
+
     // Add event listeners for mouse and touch events
     tile.addEventListener('mousedown', handleDragStart);
     tile.addEventListener('touchstart', handleDragStart);
@@ -60,4 +78,7 @@ movieTiles.forEach((tile) => {
     tile.addEventListener('mouseup', handleDragEnd);
     tile.addEventListener('touchend', handleDragEnd);
     tile.addEventListener('mouseleave', handleDragEnd);
+
+    // Add event listener for scroll event
+    window.addEventListener('scroll', handleScroll);
 });
