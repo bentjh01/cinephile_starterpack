@@ -11,7 +11,7 @@ body {
 }
 
 /* Desktop view */
-@media (min-width: 768px) {
+@media screen and (orientation: landscape) {
   body {
       flex-direction: row;
       overflow-x: auto;
@@ -20,7 +20,7 @@ body {
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
   body {
       flex-direction: column;
       overflow-x: hidden;
@@ -35,14 +35,14 @@ body {
 }
 
 /* Desktop view */
-@media (min-width: 768px) {
+@media screen and (orientation: landscape) {
   .movie-tile-track {
       flex-direction: row;
   }
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
+@media screen and (orientation: portrait) {
   .movie-tile-track {
       flex-direction: column;
   }
@@ -61,30 +61,26 @@ body {
   border-style: solid; /* Add border style */
 }
 
+.movie-tile img {
+  object-fit: cover;
+  /* margin: 1rem; */
+}
 /* Desktop view */
-/* @media (min-width: 768px) {
-  .movie-tile {
-      background-color: black;
-      flex-direction: row;
-      overflow-x: auto;
+@media screen and (orientation: landscape) {
+    .movie-tile img {
+        height: 75vmin;
+        max-width: 50vmin;
   }
-} */
+}
 
 /* Mobile view */
-/* @media (max-width: 768px) {
-  .movie-tile {
-      background-color: gray;
-      flex-direction: column;
-      overflow-y: auto;
+@media screen and (orientation: portrait) {
+  .movie-tile img{
+    height: 75vmax;
+    max-width: 50vmax;
   }
-} */
-
-.movie-tile img {
-  height: 75vmin;
-  max-width: 50vmin;
-  object-fit: cover;
-  margin: 1rem;
 }
+
 
 .movie-tile-text h1, .movie-tile-text p {
   color: white;
