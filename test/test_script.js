@@ -1,9 +1,12 @@
+
+
 // Get the movie tiles
 const movieTiles = document.querySelectorAll('.movie-tile');
 
 // Set the transition duration and threshold
 const transitionDuration = 300; // milliseconds
 const transitionThreshold = 100; // pixels
+let scrollSensitivity = 10; // Adjust the scrolling sensitivity here
 
 // Add event listeners to each movie tile
 movieTiles.forEach((tile) => {
@@ -55,7 +58,7 @@ movieTiles.forEach((tile) => {
     // Handle the scroll event
     const handleScroll = () => {
         // Calculate the distance scrolled
-        const distanceScrolled = window.scrollY;
+        const distanceScrolled = window.scrollY * scrollSensitivity;
 
         // Determine if the threshold is reached
         if (distanceScrolled >= transitionThreshold) {

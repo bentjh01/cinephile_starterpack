@@ -11,7 +11,8 @@ body {
 }
 
 /* Desktop view */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) { */
+@media screen and (orientation: landscape) {
     body {
         background-color: black;
         flex-direction: row;
@@ -21,7 +22,8 @@ body {
 }
 
 /* Mobile view */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) { */
+@media screen and (orientation: portrait) {
     body {
         background-color: gray;
         flex-direction: column;
@@ -91,3 +93,4 @@ body {
 .movie-tile-text h1, .movie-tile-text p {
     color: white;
 }
+
