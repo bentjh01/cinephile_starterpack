@@ -83,9 +83,9 @@ era defining - animation style
 4. Shawn of the dead
    [trailer](https://youtu.be/LIfcaZ4pC-4?si=Hvjm7H9r80J7g4CQ)
    [image](https://m.media-amazon.com/images/M/MV5BMTU2NjA0NDk0NV5BMl5BanBnXkFtZTcwOTA0OTQzMw@@._V1_.jpg)
-   <!-- Opening Line -->
-   "Dogs can't look up"
-   <!-- Summary -->
+    <!-- Opening Line -->
+    "Dogs can't look up"
+    <!-- Summary -->
 
 <!-- About the director -->
 
@@ -173,10 +173,10 @@ broke off so now its a zebra"
 
 7. Pulp Fiction
    [poster](https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg)
-   <!-- Opening Line -->
-   "Oh what the fuck's happening... Oh shit man"
-   <!-- Summary -->
-   <!-- About the director -->
+    <!-- Opening Line -->
+    "Oh what the fuck's happening... Oh shit man"
+    <!-- Summary -->
+    <!-- About the director -->
 
 <!-- About me -->
 <!-- Closing line -->
@@ -188,10 +188,10 @@ broke off so now its a zebra"
 
 8. Spirited away
    [trailer](https://youtu.be/QRQMNr5gQ8k?si=rGvDxeF6iUlDupRf)
-   <!-- Opening Line -->
-   "What if I cant recognise my parents? I hope dad hasnt gotten fat"
-   <!-- Summary -->
-   <!-- About the director -->
+    <!-- Opening Line -->
+    "What if I cant recognise my parents? I hope dad hasnt gotten fat"
+    <!-- Summary -->
+    <!-- About the director -->
 
 <!-- About me -->
 <!-- Closing line -->
