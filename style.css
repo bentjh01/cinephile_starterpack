@@ -13,9 +13,12 @@ body {
 /* Desktop view */
 @media screen and (orientation: landscape) {
   body {
-      flex-direction: row;
+      /* flex-direction: row;
       overflow-x: auto;
-      overflow-y: hidden;
+      overflow-y: hidden; */
+      flex-direction: column;
+      overflow-x: hidden;
+      overflow-y: auto;
   }
 }
 
@@ -37,7 +40,8 @@ body {
 /* Desktop view */
 @media screen and (orientation: landscape) {
   .movie-tile-track {
-      flex-direction: row;
+    flex-direction: column;
+      /* flex-direction: row; */
   }
 }
 
@@ -49,16 +53,15 @@ body {
 }
 
 .movie-tile {
-  /* background-color: gray; */
   width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-color: white;
-  border-width: 5px; /* Add border with 5px */
-  border-style: solid; /* Add border style */
+  /* border-color: white;
+  border-width: 5px; 
+  border-style: solid; */
 }
 
 .movie-tile img {
@@ -81,10 +84,79 @@ body {
   }
 }
 
+.movie-tile-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 100;
+  transition: opacity 0.5s ease-in-out;
+}
 
-.movie-tile-text h1, .movie-tile-text p {
+/* Desktop view */
+@media screen and (orientation: landscape) {
+  .movie-tile-text {
+      height: fit-content;
+      max-width: 75vmin;
+}
+}
+
+/* Mobile view */
+@media screen and (orientation: portrait) {
+.movie-tile-text{
+  height: fit-content;
+  max-width: 50vmax;
+}
+}
+
+.movie-tile-text h1{
   color: white;
 }
+
+.movie-tile-text p {
+  color: white;
+  font-size: large;
+}
+
+/* Minimap */
+
+/* .minimap__container{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    min-width: 20px;
+    z-index: 100;
+  
+  }
+  
+  .minimap__size{
+    position: relative;
+    z-index: 5;
+    border: 2px solid black;
+  }
+  
+  .minimap__viewer{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: 0 0;
+    z-index: 100;
+    border: 1px solid white;
+  }
+  
+  .minimap__content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform-origin: 0 0;
+    border: 1px solid white;
+    
+  } */
+
 /* ------------------------------------- STOP HERE -----------------------------------------------------*/
 /* *{
     margin: 0;
@@ -144,44 +216,7 @@ html{
     padding: 5%;
 } */
 
-/* Minimap */
 
-/* .minimap__container{
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    min-width: 20px;
-    z-index: 100;
-  
-  }
-  
-  .minimap__size{
-    position: relative;
-    z-index: 5;
-    border: 2px solid black;
-  }
-  
-  .minimap__viewer{
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform-origin: 0 0;
-    z-index: 100;
-    border: 1px solid white;
-  }
-  
-  .minimap__content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    transform-origin: 0 0;
-    border: 1px solid white;
-    
-  } */
 
 /* body {
     display: flex;

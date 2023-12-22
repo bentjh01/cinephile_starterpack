@@ -1,97 +1,125 @@
+// Horizontal scrolling
+function scroll(event) {
+  const movieTiles = document.querySelectorAll('.movie-tile');
+  // Check if the scroll direction is left or right
+  if (event.deltaY > 0) {
+    // Scroll the page to the right
 
 
-let minimap = document.createElement('div');
-let minimapSize = document.createElement('div');
-let viewer = document.createElement('div');
-let minimapContent = document.createElement('iframe');
-let scale = 0.1;
-let realScale;
-
-minimap.className = 'minimap__container';
-minimapSize.className = 'minimap__size';
-viewer.className = 'minimap__viewer';
-minimapContent.className = 'minimap__content';
-
-minimap.append(minimapSize, viewer, minimapContent);
-document.body.appendChild(minimap);
-
-let html = document.documentElement.outerHTML.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-
-let iframeDoc = minimapContent.contentWindow.document;
-
-iframeDoc.open();
-iframeDoc.write(html);
-iframeDoc.close();
-
-
-function getDimensions(){
-    let bodyWidth = document.body.clientWidth;
-    let bodyRatio = document.body.clientHeight / bodyWidth;
-    let winRatio = window.innerHeight / window.innerWidth;
-
-    minimap.style.width = '15%';
-
-    realScale = minimap.clientWidth / bodyWidth;
-
-    minimapSize.style.paddingTop = `${bodyRatio * 100}%`
-    viewer.style.paddingTop = `${winRatio * 100}%`;
-
-    minimapContent.style.transform = `scale(${realScale})`;
-    minimapContent.style.width = `${(100 / realScale)}%`
-    minimapContent.style.height = `${(100 / realScale)}%`
+    window.scrollBy({
+      left: window.innerWidth *2, // window.innerWidth
+      behavior: 'smooth' // Add smooth scrolling effect
+    });
+  } else if (event.deltaY < 0) {
+    // Scroll the page to the left
+    window.scrollBy({
+      left: -window.innerWidth/2,
+      behavior: 'smooth' // Add smooth scrolling effect
+    });
+  }
+  const rect = movieTiles[0].getBoundingClientRect();
+  if (window.scrollX > rect.right - window.innerWidth*0.75) {
+    window.scrollTo(0,0);
+  }  
 }
 
-function trackScroll(){
-    viewer.style.transform = `translateY(${window.scrollY * realScale}px)`
+function snap_horizontal() {
+  // Get all movie tiles
+  const movieTiles = document.querySelectorAll('.movie-tile');
+  // Iterate over the tiles to find the one closest to the center
+  for (let i = 0; i < movieTiles.length; i++) {
+    var pageX = window.scrollX + window.innerWidth/2;
+    var tileX = window.innerWidth * (i + 0.5);
+    var distanceX = tileX - pageX;
+    if (Math.abs(distanceX) < window.innerWidth/2) {
+      const rect = movieTiles[i].getBoundingClientRect();
+      break
+    }
+
+    // // Get the position and size of the tile
+    // var rect = movieTiles[i].getBoundingClientRect();
+    // if (window.scrollX > rect.right) {
+    //   break
+    // }
+    // var distance = Math.abs(rect.left - pageX);
+    // if (distance < window_width/2) {
+    //   return window_width/2 - distance
+    // }
+    // else {
+    //   return window_width/2
+    // }
+  }
 }
 
-getDimensions()
-window.addEventListener('scroll', trackScroll)
-window.addEventListener('resize', getDimensions)
+function snap_vertical() {
+  // Get all movie tiles
+  const movieTiles = document.querySelectorAll('.movie-tile');
+  // Calculate the center of the page
+  const pageCenterY = window.scrollY + window.innerHeight / 2;
+  // Calculate the width and height of the tile
+  const tile_height = movieTiles[0].offsetHeight;
+  // Iterate over the tiles
+  for (let i = 0; i < movieTiles.length; i++) {
+    // Get the position and size of the tile
+    const rect = movieTiles[i].getBoundingClientRect();
+    // Calculate the center position of the tile
+    const tileCenterY = rect.top + tile_height / 2;
+    if (Math.abs(tileCenterY - pageCenterY) < tile_height / 2){
+      return Math.abs(tileCenterY - pageCenterY)
+    }
+  }
+}
 
+// Check if the viewport is in landscape mode
+if (window.innerWidth > window.innerHeight) {
+  window.addEventListener('wheel', scroll);
+}
 
-// const track = document.getElementById("image-track");
+// if (window.innerWidth > window.innerHeight) {
+//   // Add an event listener to the window for the scroll event
+//   window.addEventListener('wheel', function(event) {
+//     // Get all movie tiles
+//     const movieTiles = document.querySelectorAll('.movie-tile');
+//     // Calculate the center of the page
+//     const pageCenterX = window.innerWidth / 2;
+//     const pageCenterY = window.innerHeight / 2;
+//     // Iterate over the tiles
+//     for (let i = 0; i < movieTiles.length; i++) {
+//       // Get the position and size of the tile
+//       const rect = movieTiles[i].getBoundingClientRect();
+//       // Check if the top and bottom of the tile are within the viewport
+//       if (rect.left >= 0 && rect.right <= window.innerWidth) {
+//         // This tile is in view
+//         const tileInView = movieTiles[i];
+//         break;
+//       }
+//     }
+//     const rectInView = tileInView.getBoundingClientRect();
+//     // Calculate the center position of the tile
+//     const tileCenterX = rectInView.left + rect.width / 2;
+//     const tileCenterY = rectInView.top + rect.height / 2;
 
-// const handleOnDown = e => track.dataset.mouseDownAt = e.clientX;
+//     // Calculate the distance between the page center and the tile center
+//     const distanceX = pageCenterX - tileCenterX;
+//     const distanceY = pageCenterY - tileCenterY;
 
-// const handleOnUp = () => {
-//   track.dataset.mouseDownAt = "0";  
-//   track.dataset.prevPercentage = track.dataset.percentage;
+//     // Check if the scroll direction is left or right
+//     if (event.deltaY > 0) {
+//       // Scroll the page to the right
+//       window.scrollBy({
+//         left: distanceX,
+//         // left: window.innerWidth, // Adjust the scroll distance as needed
+//         behavior: 'smooth' // Add smooth scrolling effect
+//       });
+//     } else if (event.deltaY < 0) {
+//       // Scroll the page to the left
+//       window.scrollBy({
+//         left: -distanceX,
+//         // left: -(window.innerWidth), // Adjust the scroll distance as needed
+//         behavior: 'smooth' // Add smooth scrolling effect
+//       });
+//     }
+//   });
 // }
 
-// const handleOnMove = e => {
-//   if(track.dataset.mouseDownAt === "0") return;
-  
-//   const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
-//         maxDelta = window.innerWidth / 2;
-  
-//   const percentage = (mouseDelta / maxDelta) * -100,
-//         nextPercentageUnconstrained = parseFloat(track.dataset.prevPercentage) + percentage,
-//         nextPercentage = Math.max(Math.min(nextPercentageUnconstrained, 0), -100);
-  
-//   track.dataset.percentage = nextPercentage;
-  
-//   track.animate({
-//     transform: `translate(${nextPercentage}%, -50%)`
-//   }, { duration: 1200, fill: "forwards" });
-  
-//   for(const image of track.getElementsByClassName("image")) {
-//     image.animate({
-//       objectPosition: `${100 + nextPercentage}% center`
-//     }, { duration: 1200, fill: "forwards" });
-//   }
-// }
-
-// /* -- Had to add extra lines for touch events -- */
-
-// window.onmousedown = e => handleOnDown(e);
-
-// window.ontouchstart = e => handleOnDown(e.touches[0]);
-
-// window.onmouseup = e => handleOnUp(e);
-
-// window.ontouchend = e => handleOnUp(e.touches[0]);
-
-// window.onmousemove = e => handleOnMove(e);
-
-// window.ontouchmove = e => handleOnMove(e.touches[0]);
+// // set
